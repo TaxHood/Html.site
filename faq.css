@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(87, 82, 82);
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    }
+    
+    body ::selection{
+      background: rgb(4, 3, 3);
+      color:white;
+    }
+    
+   
+.title1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial;
+    background-color:#1e1c1c;
+    height: 40px;
+    margin-top: -0.9%;
+    margin-left: -10px;
+    margin-right: -20px;
+    padding: 40px;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    
+    
+    #logga {
+    margin-top: -132px;
+    margin-left:12px;
+    }
+    
