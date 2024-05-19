@@ -442,3 +442,20 @@ margin-left:12px;
   color: rgba(104, 99, 99, 0.877); 
 }
 
+
+.popup-content2 a {
+  color: rgb(187, 27, 27);
+  text-decoration: none;
+}
+.popup-content2 a:hover,
+.popup-content2 a:visited {
+  color: rgb(185, 29, 29);
+}
+
+.popup-content2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+.popup-content2 li {
+  margin: 5px 0;
+}
