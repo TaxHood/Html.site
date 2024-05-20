@@ -1,52 +1,38 @@
 body {
-    background-color: rgb(87, 82, 82);
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
-    }
-    
-    body ::selection{
-      background: rgb(4, 3, 3);
-      color:white;
-    }
-    
-   
-.title1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Arial;
-    background-color:#1e1c1c;
-    height: 40px;
-    margin-top: -0.9%;
-    margin-left: -10px;
-    margin-right: -20px;
-    padding: 40px;
-    transition: all 0.3s ease-in-out;
-    }
-    
-    
-    
-    #logga {
-    margin-top: -132px;
-    margin-left:12px;
-    }
-<<<<<<< Updated upstream
-    
-
-
-    .container {
-      display: flex;
-      margin-top: 35px;
+  background-color: rgb(87, 82, 82);
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
   }
   
-  /*skriv här*/
+  body ::selection{
+    background: rgb(4, 3, 3);
+    color:white;
+  }
   
-  .column1 {
-=======
+ 
+.title1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial;
+  background-color:#1e1c1c;
+  height: 40px;
+  margin-top: -0.9%;
+  margin-left: -10px;
+  margin-right: -20px;
+  padding: 40px;
+  transition: all 0.3s ease-in-out;
+  }
+  
+  
+  
+  #logga {
+  margin-top: -132px;
+  margin-left:12px;
+  }
 
-    
-    
-.container {
+
+  .container {
     display: flex;
     margin-top: 35px;
 }
@@ -56,7 +42,7 @@ body {
 .column1 {
   width: 15%;
   height: 12%;
-  padding: 60px;
+  padding: 50px;
   background-color:rgba(243, 233, 233, 0.505);
   outline: 3px solid rgba(75, 71, 71, 0.598);
   transition: all 0.4s ease-in-out;
@@ -99,10 +85,9 @@ body {
 
   
 .column2 {
->>>>>>> Stashed changes
     width: 15%;
     height: 12%;
-    padding: 60px;
+    padding: 50px;
     background-color:rgba(243, 233, 233, 0.505);
     outline: 3px solid rgba(75, 71, 71, 0.598);
     transition: all 0.4s ease-in-out;
@@ -110,125 +95,6 @@ body {
     margin: 60px auto 14px;
     border-radius: 20px;
     box-shadow: 0 0 10px 2px rgb(36, 35, 35);
-<<<<<<< Updated upstream
-    text-shadow:2px 2px 2px #5a5757;
-    color: rgba(11, 2, 2, 0.591);
-    font-family: 'calibri';
-  }
-  
-  
-  
-  
-  @media (max-width: 768px) {
-      .column1 {
-        width: 60%;
-      }
-  
-  
-      .container {
-          flex-direction: column;
-      }
-    }
-  
-    .column1:hover .column-image {
-      display: block;
-    }
-    
-    .column1:hover {
-      transform: translateY(-10px);
-      outline: 3px solid #4a474700;
-      box-shadow: 0 0 10px 2px #5f5c5c;
-    }
-  
-  
-  
-  /* mellanrum*/
-  
-    
-  .column2 {
-      width: 15%;
-      height: 12%;
-      padding: 60px;
-      background-color:rgba(243, 233, 233, 0.505);
-      outline: 3px solid rgba(75, 71, 71, 0.598);
-      transition: all 0.4s ease-in-out;
-      text-align: center;
-      margin: 60px auto 14px;
-      border-radius: 20px;
-      box-shadow: 0 0 10px 2px rgb(36, 35, 35);
-      font-family: 'calibri';
-      text-shadow:2px 2px 2px #5a5757;
-    }
-  
-  
-  @media (max-width:68px) {
-      .column2 {
-          width: 100%;
-      }   
-  }
-  
-  .column2 h2 {
-      color: rgba(11, 2, 2, 0.591);
-  }
-    
-    
-  @media (max-width: 768px) {
-      .column2 {
-      width: 60%;
-      }
-  }
-    
-  .column2:hover .column-image {
-      display: block;
-  }
-      
-  .column2:hover {
-      transform: translateY(-10px);
-      outline: 3px solid #4a474700;
-      box-shadow: 0 0 10px 2px #5f5c5c;
-  }
-    
-    
-  
-      /* mellanrum*/
-  
-  
-      .column3 {
-          width: 15%;
-          height: 12%;
-          padding: 60px;
-          background-color: rgba(243, 233, 233, 0.505);
-          outline: 3px solid rgba(75, 71, 71, 0.598);
-          transition: all 0.4s ease-in-out;
-          text-align: center;
-          margin: 60px auto 14px;
-          border-radius: 20px;
-          box-shadow: 0 0 10px 2px rgb(36, 35, 35);
-          text-shadow:2px 2px 2px #5a5757;
-          font-family: 'calibri';
-        }
-        
-        .column3 h2 {
-          color:rgba(11, 2, 2, 0.591);
-        }
-        
-        
-        @media (max-width: 768px) {
-            .column3 {
-              width: 60%;
-            }
-          }
-        
-          .column3:hover .column-image {
-            display: block;
-          }
-          
-          .column3:hover {
-            transform: translateY(-10px);
-            outline: 3px solid #4a474700;
-            box-shadow: 0 0 10px 2px #5f5c5c;
-          }
-=======
     font-family: 'calibri';
     text-shadow:2px 2px 2px #5a5757;
   }
@@ -269,7 +135,7 @@ body {
     .column3 {
         width: 15%;
         height: 12%;
-        padding: 60px;
+        padding: 50px;
         background-color: rgba(243, 233, 233, 0.505);
         outline: 3px solid rgba(75, 71, 71, 0.598);
         transition: all 0.4s ease-in-out;
@@ -302,4 +168,4 @@ body {
           box-shadow: 0 0 10px 2px #5f5c5c;
         }
       
->>>>>>> Stashed changes
+    
